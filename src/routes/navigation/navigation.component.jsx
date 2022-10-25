@@ -9,7 +9,7 @@ import CartDropdown from './../../components/cart-dropdown/cart-dropdown.compone
 import { CartContext } from '../../contexts/cart.context';
 
 const Navigation = () => {
-  const { isCartOpen, setIsCartOpen } = useContext(CartContext);
+  const { isCartOpen } = useContext(CartContext);
   const { currentUser } = useContext(UserContext);
 
   return (
